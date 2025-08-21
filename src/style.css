@@ -1,0 +1,166 @@
+.appContainer {
+  display: flex;
+  flex-direction: column;  
+  background-color: #f8f9fa;
+}
+
+.contenedorPagina {
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.contenedorInicios{
+  width: 50%;
+  padding: 20px;
+  background-color: #fff; 
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenedorDashboard {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.cajaDashboard, .contenedorRegistros, .contenedorTiempoUso, .contenedorGrafico, .cajaFormulario {
+  width: 100%;
+  padding: 20px;
+  background-color: #fff; 
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.tituloFormulario, .tituloRegistros, .tituloTiempoUso, .tituloTiempo, .tituloGrafico {
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.tituloDashboard{
+  color: #fff;
+  background-color: #343a40;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.etiquetaFormulario, .etiquetaDashboard {
+  color: #343a40;
+}
+
+.entradaFormulario, .entradaDashboard {
+  border-color: #6c757d;
+  margin-bottom: 10px;
+}
+
+.botonFormulario, .botonDashboard {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.enlaceFormulario, .enlaceDashboard {
+  color: #007bff;
+}
+
+.logoutContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.botonLogout {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: #fff;
+}
+
+.botonLogout:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.botonLogout:active {
+  background-color: #bd2130;
+  border-color: #b21f2d;
+}
+
+.contenedorRegistros {
+  overflow-y: auto; 
+  max-height: 400px; 
+}
+
+.tablaRegistros {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tablaRegistros th, .tablaRegistros td {
+  border: 1px solid #dee2e6;
+  padding: 8px;
+  text-align: left;
+  background-color: #fff; 
+}
+
+.tablaRegistros th {
+  background-color: #e9ecef;
+}
+
+
+.mensajeNoRegistros {
+  color: #dc3545;
+  text-align: center;
+  font-size: 18px;
+}
+
+.filaDashboard, .filaTiempoUso {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.columnaDashboard, .columnaTiempoUso {
+  width: 48%;
+  margin-bottom: 20px;
+  top: 0;
+}
+
+.contenedorTiempo {
+  padding: 10px;
+  background-color: #fff; 
+}
+
+.tiempo {
+  color: #28a745;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contenedorGrafico {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.tituloGrafico {
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+.graficoContainer {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .columnaDashboard, .columnaTiempoUso {
+    width: 100%;
+  }
+}
