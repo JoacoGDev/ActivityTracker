@@ -4,13 +4,13 @@ Proyecto de frontend desarrollado para el **Taller de Front-End de ORT** por [@J
  
 La app permite a los usuarios registrar el tiempo dedicado a distintas actividades y visualizar el progreso mediante gráficos interactivos.
 
----
+----
 
 ## ⚠️ Estado del proyecto
 La API backend utilizada en este proyecto **ya no está soportada**, por lo que la app no puede guardar ni obtener nuevos datos de actividades.  
 Sin embargo, el **frontend funciona completamente** y muestra el diseño, los componentes y los gráficos interactivos.
 
----
+----
 
 ## Funcionalidades
 - Agregar y ver actividades registradas
@@ -19,7 +19,7 @@ Sin embargo, el **frontend funciona completamente** y muestra el diseño, los co
 - Componentes reutilizables en **React**
 - Diseño responsive
 
----
+----
 
 ## Tecnologías utilizadas
 - React
@@ -30,7 +30,7 @@ Sin embargo, el **frontend funciona completamente** y muestra el diseño, los co
 - CSS
 - Bootstrap
 
----
+----
 
 ## Uso
 1. Clonar el repositorio:
